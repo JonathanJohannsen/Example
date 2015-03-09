@@ -11,7 +11,7 @@ public class ThreadSafeLazyLoadedIvoryTower {
 
 	private static ThreadSafeLazyLoadedIvoryTower instance = null;
 	
-	private ThreadSafeLazyLoadedIvoryTower() {
+	public ThreadSafeLazyLoadedIvoryTower() {
 	}
 
 	public synchronized static ThreadSafeLazyLoadedIvoryTower getInstance() {
